@@ -13,7 +13,7 @@ import lombok.Data;
 
 @Data
 @XmlAccessorType(XmlAccessType.FIELD)
-public class Shader {
+public class Material {
 	public static final String PHONG   = "urn:xml3d:material:phong";
 	public static final String FLAT    = "urn:xml3d:material:flat";
 	public static final String DIFFUSE = "urn:xml3d:material:diffuse";

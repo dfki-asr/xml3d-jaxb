@@ -17,7 +17,7 @@ import lombok.Data;
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Defs {
 	@XmlElement(name = "material")
-	protected List<Shader> shaders = new ArrayList<>();
+	protected List<Material> shaders = new ArrayList<>();
 
 	@XmlElement
 	protected XML3DAsset asset;
