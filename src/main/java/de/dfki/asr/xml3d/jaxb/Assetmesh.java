@@ -22,7 +22,7 @@ public class Assetmesh {
 	protected FloatList transform;
 
 	@XmlAttribute
-	protected String shader;
+	protected String material;
 
 	@XmlElement(name="float3")
 	protected FloatList position;
